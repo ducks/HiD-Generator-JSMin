@@ -36,11 +36,8 @@ with 'HiD::Generator';
 use File::Find::Rule;
 use Path::Tiny;
 use JavaScript::Minifier qw(minify);
-use Data::Printer;
 
 use 5.014;
-
-use HiD::VirtualPage;
 
 sub generate {
   my($self, $site) = @_;
